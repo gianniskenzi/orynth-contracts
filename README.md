@@ -11,6 +11,12 @@ Solidity source, ABIs, deployment addresses, and original compiler inputs for Or
 
 Each launch creates its own `OrynthLaunchTokenV2` and `OrynthFeeLocker`. The current deployment's recorded token and locker addresses are in [the deployment manifest](deployments/robinhood-mainnet.json). That manifest is a dated snapshot, not a live index or a complete history of all prior launches.
 
+## Verification status
+
+As of September 5, 2026 (UTC), **30 recorded addresses have exact-match source verification on Sourcify**: the 12 current launch tokens, their 12 lockers, and six shared current/historical contracts. [Per-address results](deployments/verification-status.json) include direct source links. For example, [OCR Genius is verified here](https://repo.sourcify.dev/4663/0x99E35ac90a8E583c06d68aE9e894939cdfA15f4C).
+
+The current launcher also displays an exact match on Blockscout. Further Blockscout publication is pending: its API returned HTTP 403, and the browser submission for OCR returned “Something went wrong.” This does not change the successful Sourcify results. Do not interpret these results as confirmation of every historical deployment or of GMGN's cached badge.
+
 The token has a fixed supply of 1,000,000,000 units with 18 decimals. The launcher creates a Uniswap v4 pool with a 2% pool fee and places the liquidity position NFT in a permanent fee locker. The locker splits fees between creator and platform and supports converting accumulated token fees to ETH.
 
 ## Source layout

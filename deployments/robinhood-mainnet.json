@@ -13,7 +13,12 @@
       "source": "contracts/robinhood/OrynthRobinhoodLauncher.sol",
       "name": "OrynthRobinhoodLauncher",
       "artifactMatch": true,
-      "explorerVerification": "exact-match-observed"
+      "explorerVerification": "exact-match-observed",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xF67B66751Ef6b0733eeb562c2BC37D856CF00214",
+        "verifiedAt": "2026-09-04T10:48:48Z"
+      }
     },
     {
       "address": "0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f",
@@ -23,7 +28,12 @@
       "source": "contracts/robinhood/OrynthTokenDeployer.sol",
       "name": "OrynthTokenDeployer",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xFAA6e7470abDa93496Fca2c49E38CB27F0b51f8F",
+        "verifiedAt": "2026-09-04T10:49:20Z"
+      }
     },
     {
       "address": "0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc",
@@ -33,7 +43,12 @@
       "source": "contracts/robinhood/OrynthEthFeeHook.sol",
       "name": "OrynthEthFeeHook",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x953391a2DDf7E8437FeB878FDF2C6f325Fbf00CC",
+        "verifiedAt": "2026-09-05T22:16:01Z"
+      }
     },
     {
       "address": "0xf31290688662f55cdaebd78f9fd3f9b4992adda3",
@@ -43,7 +58,12 @@
       "source": "contracts/robinhood/OrynthHookDeployer.sol",
       "name": "OrynthHookDeployer",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xF31290688662F55CdAeBd78f9fd3f9B4992aDDa3",
+        "verifiedAt": "2026-09-05T22:16:01Z"
+      }
     },
     {
       "address": "0xe422bc468377c17a71955179eea2596f33ffad5c",
@@ -60,7 +80,12 @@
       "source": "contracts/robinhood/OrynthRobinhoodLauncher.sol",
       "name": "OrynthRobinhoodLauncher",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x8a56B42dCF6d74E4Cc9261D4d0905B8E245c4829",
+        "verifiedAt": "2026-09-05T22:16:09Z"
+      }
     },
     {
       "address": "0xaf483a76f3732fc9726189ca1eb48f54c234e4df",
@@ -70,7 +95,12 @@
       "source": "contracts/robinhood/OrynthRobinhoodHookLauncher.sol",
       "name": "OrynthRobinhoodHookLauncher",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xaf483a76F3732fC9726189CA1EB48f54c234E4Df",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0x99e35ac90a8e583c06d68ae9e894939cdfa15f4c",
@@ -80,7 +110,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "blocked: Blockscout browser returned Something went wrong; API returned HTTP 403",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x99E35ac90a8E583c06d68aE9e894939cdfA15f4C",
+        "verifiedAt": "2026-09-05T22:14:40Z"
+      }
     },
     {
       "address": "0x2aecf693bec53f5085b3d006b37211fefaaf6b4c",
@@ -90,7 +125,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x2aEcf693beC53f5085B3D006B37211feFaAf6B4c",
+        "verifiedAt": "2026-09-05T22:16:03Z"
+      }
     },
     {
       "address": "0xb11a76ea1a40121c83252bc020ac781728933961",
@@ -100,7 +140,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xB11A76eA1A40121C83252BC020aC781728933961",
+        "verifiedAt": "2026-09-05T22:16:03Z"
+      }
     },
     {
       "address": "0xc34a160a089185b93f768949a6c619cfc5cc0bac",
@@ -110,7 +155,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xc34A160a089185b93f768949A6c619cFC5CC0bac",
+        "verifiedAt": "2026-09-05T22:16:04Z"
+      }
     },
     {
       "address": "0xb7388963d06d27f0a8f6fd698096fbd58db58ad2",
@@ -120,7 +170,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xB7388963d06d27f0a8F6FD698096fBD58DB58ad2",
+        "verifiedAt": "2026-09-05T22:16:04Z"
+      }
     },
     {
       "address": "0xc0fa01e7b5a808a04b8d73e49c741eba026931f4",
@@ -130,7 +185,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xC0FA01E7b5a808a04B8D73e49c741ebA026931F4",
+        "verifiedAt": "2026-09-05T22:16:05Z"
+      }
     },
     {
       "address": "0x404ca8d7c90531a0e3523f97e442a7f6bcbb5b76",
@@ -140,7 +200,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x404CA8d7C90531A0E3523F97e442A7f6BCBB5B76",
+        "verifiedAt": "2026-09-05T22:16:05Z"
+      }
     },
     {
       "address": "0xac9dfe7e8d524955fe1e7795bba45c968ac9648d",
@@ -150,7 +215,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xac9DFE7E8d524955Fe1e7795bBa45c968ac9648D",
+        "verifiedAt": "2026-09-05T22:16:07Z"
+      }
     },
     {
       "address": "0x7d75647eab7b9999cdd6d67377a05dc93dcefc34",
@@ -160,7 +230,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x7d75647Eab7b9999CdD6D67377A05Dc93dCefc34",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0xeb22ebb2cbf029cbffab6bc2907be4cabfb04cfd",
@@ -170,7 +245,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xeB22EBB2cBF029CBFfAB6Bc2907be4caBfb04Cfd",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0x730e4c8158b3946c6fe29f1da7d08d58a852e09f",
@@ -180,7 +260,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x730e4C8158b3946C6Fe29f1Da7d08D58A852e09F",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0x5e94f82967802d45d3d6eec7b043c84fe1b430fb",
@@ -190,7 +275,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x5E94F82967802D45d3D6Eec7B043c84Fe1B430fB",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0xec1e6385548a02286c512f37f8fd050f46bc7850",
@@ -200,7 +290,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xeC1e6385548A02286c512f37F8FD050F46bC7850",
+        "verifiedAt": "2026-09-05T22:16:08Z"
+      }
     },
     {
       "address": "0x9d33ffd4be200e1017b034dd81d51567f33435e1",
@@ -210,7 +305,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x9d33FFd4be200E1017b034DD81D51567F33435e1",
+        "verifiedAt": "2026-09-05T22:16:09Z"
+      }
     },
     {
       "address": "0xdb48334298bb36d56c1efeb7c762b6703791c2db",
@@ -220,7 +320,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xdb48334298Bb36d56c1EfEB7c762B6703791C2db",
+        "verifiedAt": "2026-09-05T22:16:09Z"
+      }
     },
     {
       "address": "0x8380a115c6224ccab03602dcc27e007904789e72",
@@ -230,7 +335,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x8380a115c6224ccAb03602DCc27e007904789E72",
+        "verifiedAt": "2026-09-05T22:16:10Z"
+      }
     },
     {
       "address": "0xdbd75106577ff0f1953a14b7de01786bb5697dd2",
@@ -240,7 +350,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xdBD75106577FF0F1953A14B7dE01786bb5697DD2",
+        "verifiedAt": "2026-09-05T22:16:12Z"
+      }
     },
     {
       "address": "0x3d7a994ea6aeb21226ea88268cb34f2a9233297c",
@@ -250,7 +365,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x3d7a994ea6aeB21226ea88268cB34f2a9233297c",
+        "verifiedAt": "2026-09-05T22:16:11Z"
+      }
     },
     {
       "address": "0x3994de7d15432ff3a95ba05018a588b02c8e783c",
@@ -260,7 +380,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x3994De7D15432fF3A95Ba05018a588b02c8E783C",
+        "verifiedAt": "2026-09-05T22:16:11Z"
+      }
     },
     {
       "address": "0x217249940117ecc9462863db8d99fe50c449ce8a",
@@ -270,7 +395,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x217249940117ECc9462863dB8D99fe50C449CE8A",
+        "verifiedAt": "2026-09-05T22:16:13Z"
+      }
     },
     {
       "address": "0xaf354bc4f216c9e4f1d292addff2eb3f4fdb60de",
@@ -280,7 +410,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xaF354BC4f216C9E4f1d292ADDfF2Eb3f4fdB60dE",
+        "verifiedAt": "2026-09-05T22:16:12Z"
+      }
     },
     {
       "address": "0x3f3a26975456982cbbd8520aa2d920755a5b10fd",
@@ -290,7 +425,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0x3f3A26975456982CbBd8520aa2D920755a5b10Fd",
+        "verifiedAt": "2026-09-05T22:16:12Z"
+      }
     },
     {
       "address": "0xe055049016e5e3d364fa75802a2042134a350bdd",
@@ -300,7 +440,12 @@
       "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
       "name": "OrynthLaunchTokenV2",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xE055049016E5E3D364fa75802A2042134A350BDD",
+        "verifiedAt": "2026-09-05T22:16:15Z"
+      }
     },
     {
       "address": "0xdebb21af28757bc15199021ae34a3f18cbe47418",
@@ -310,7 +455,12 @@
       "source": "contracts/robinhood/OrynthFeeLocker.sol",
       "name": "OrynthFeeLocker",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked"
+      "explorerVerification": "not-yet-checked",
+      "sourcifyVerification": {
+        "match": "exact_match",
+        "url": "https://repo.sourcify.dev/4663/0xdEbB21af28757bC15199021aE34A3f18cBE47418",
+        "verifiedAt": "2026-09-05T22:16:15Z"
+      }
     }
   ]
 }
