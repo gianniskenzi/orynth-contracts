@@ -1,0 +1,316 @@
+{
+  "chainId": 4663,
+  "explorer": "https://robinhoodchain.blockscout.com",
+  "activeLauncher": "0xf67b66751ef6b0733eeb562c2bc37d856cf00214",
+  "observedAt": "2026-09-05T22:11:33.149Z",
+  "matchingMethod": "Compared deployed runtime bytecode, including Solidity metadata, against saved compiler output; immutable-reference positions were excluded. This is an artifact compatibility check, not an explorer verification or security audit.",
+  "contracts": [
+    {
+      "address": "0xf67b66751ef6b0733eeb562c2bc37d856cf00214",
+      "role": "launcher",
+      "runtimeBytecodeHash": "0x094b1cae40a461e846f316739181602e8c53dabce5f4aaec7041a7b898df3431",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthRobinhoodLauncher.sol",
+      "name": "OrynthRobinhoodLauncher",
+      "artifactMatch": true,
+      "explorerVerification": "exact-match-observed"
+    },
+    {
+      "address": "0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f",
+      "role": "token-deployer",
+      "runtimeBytecodeHash": "0xddd03353fbc27b61939ee0e6d87c971bf35e3df34daddd53eae5eb677c6a676f",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthTokenDeployer.sol",
+      "name": "OrynthTokenDeployer",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc",
+      "role": "legacy-fee-hook",
+      "runtimeBytecodeHash": "0x60cd980ec2699f93f1035474e77a1726f3389cbc630c89f570b5e55027b5c274",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthEthFeeHook.sol",
+      "name": "OrynthEthFeeHook",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xf31290688662f55cdaebd78f9fd3f9b4992adda3",
+      "role": "legacy-hook-deployer",
+      "runtimeBytecodeHash": "0xf737d2ff292da23c64445c3ec02f5c0eb29773e32f4cf5deab758d00c430ce98",
+      "build": "build-inputs/58824173735828eaf81fdd5bbe9180d2.json",
+      "source": "contracts/robinhood/OrynthHookDeployer.sol",
+      "name": "OrynthHookDeployer",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xe422bc468377c17a71955179eea2596f33ffad5c",
+      "role": "launcher",
+      "runtimeBytecodeHash": "0x7f65e28dea02df2073f934d17c671cbe93d22275a91db4751c61ef165eaec8bd",
+      "artifactMatch": false,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x8a56b42dcf6d74e4cc9261d4d0905b8e245c4829",
+      "role": "launcher",
+      "runtimeBytecodeHash": "0x216c1ae6bc129c3c12fc8cc419bc55ee996a7c7d86b230fad5bfdb279b34ea72",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthRobinhoodLauncher.sol",
+      "name": "OrynthRobinhoodLauncher",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xaf483a76f3732fc9726189ca1eb48f54c234e4df",
+      "role": "launcher",
+      "runtimeBytecodeHash": "0x85bc750c890040d701ffae72c9ae82c27f02b6a918a7abfb98fbb549e1eb4dbb",
+      "build": "build-inputs/58824173735828eaf81fdd5bbe9180d2.json",
+      "source": "contracts/robinhood/OrynthRobinhoodHookLauncher.sol",
+      "name": "OrynthRobinhoodHookLauncher",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x99e35ac90a8e583c06d68ae9e894939cdfa15f4c",
+      "role": "token",
+      "runtimeBytecodeHash": "0x035db037dcf535125f3af1aefed0a0974246b236f5fecb33bd39341de2c771cf",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x2aecf693bec53f5085b3d006b37211fefaaf6b4c",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x8634b8b91f22374ef48a9483de9a3f5399896d698ae1f80c739d95d59b1031ae",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xb11a76ea1a40121c83252bc020ac781728933961",
+      "role": "token",
+      "runtimeBytecodeHash": "0xdc32e094d2c9bdab924deb838cb1bdf532f50bbf630c81b2c836c404475d7bff",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xc34a160a089185b93f768949a6c619cfc5cc0bac",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0xfb37b24a7154e15e681d1238d9497c64b0ad217713fa34ed305674ddaf2286c4",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xb7388963d06d27f0a8f6fd698096fbd58db58ad2",
+      "role": "token",
+      "runtimeBytecodeHash": "0x1536e406dd0db3104a57ec37662a8a431bd08352865867d12f08c18ce1345362",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xc0fa01e7b5a808a04b8d73e49c741eba026931f4",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x796e28af96fccfeaaa6060d92de1545cba4eb1c33c34cbfaaa75b296394787e3",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x404ca8d7c90531a0e3523f97e442a7f6bcbb5b76",
+      "role": "token",
+      "runtimeBytecodeHash": "0xdf438c458c43acadc58cea799df8de9371080e427b0c482aff915392e061c146",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xac9dfe7e8d524955fe1e7795bba45c968ac9648d",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x49afc53dbab33761f4ad7d36660904c13c980d0f49ca0b15a5bf8f7c89a5368a",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x7d75647eab7b9999cdd6d67377a05dc93dcefc34",
+      "role": "token",
+      "runtimeBytecodeHash": "0x1d84908c670c3626c1e7b6316f33cda4721ec22dc705bda8483588f80fd556d0",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xeb22ebb2cbf029cbffab6bc2907be4cabfb04cfd",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0xe97f9fd5f9cde53cf7941fd681312b93b5a873e50ad4b39e5b3a02c43e2209f8",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x730e4c8158b3946c6fe29f1da7d08d58a852e09f",
+      "role": "token",
+      "runtimeBytecodeHash": "0x9ff41a9f9c28efa3c9445b6b1a3c36999df9fa7018e6d2fe5615f133345dbf13",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x5e94f82967802d45d3d6eec7b043c84fe1b430fb",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x7cc54d47bf424d82ad75bef1cb6c3cee48de2be63194a8fec39a28d6e568364b",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xec1e6385548a02286c512f37f8fd050f46bc7850",
+      "role": "token",
+      "runtimeBytecodeHash": "0x78292a97c461315e2c53a541fd40512062874e7b4bb21c2b943f4cd804f1a3f0",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x9d33ffd4be200e1017b034dd81d51567f33435e1",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0xcdb109968d147f7e42dda7bc33829d9244569f7b7f7b6a0e43fd97d411efa2c6",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xdb48334298bb36d56c1efeb7c762b6703791c2db",
+      "role": "token",
+      "runtimeBytecodeHash": "0xf15b51765309ac3049d3ded9ae850bb20b29647a5a45e946e254b8bc06c904e3",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x8380a115c6224ccab03602dcc27e007904789e72",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x578f84b3da3c7a3b063fc28b77c635ca173d3084e2b3c1c8fe905a401df147db",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xdbd75106577ff0f1953a14b7de01786bb5697dd2",
+      "role": "token",
+      "runtimeBytecodeHash": "0xeac80ff0e5ad410dab65abe9411baed69dd191090c3200706e43bf32bfdfe915",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x3d7a994ea6aeb21226ea88268cb34f2a9233297c",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0xfbd8308aa1164f0767b028f9ed9a413318ae492a072fce4901fd8373650abf15",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x3994de7d15432ff3a95ba05018a588b02c8e783c",
+      "role": "token",
+      "runtimeBytecodeHash": "0x968aa10cb35d51c3cbb7d39b06df9ccf329b28860d50b37c0124653f675a927a",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x217249940117ecc9462863db8d99fe50c449ce8a",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0xcb4176ea0ebdb0accde3420d184de7bdbaffb7e21db69e2fd655cd6b802a2788",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xaf354bc4f216c9e4f1d292addff2eb3f4fdb60de",
+      "role": "token",
+      "runtimeBytecodeHash": "0xac9c498e2edb61a733fba03aae54f2b14f4bd9053d41a9a85afad1a030eaa19a",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0x3f3a26975456982cbbd8520aa2d920755a5b10fd",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x0a6b8c7d08d2398a33be9ab89734c2b253b87691575221350fc5a91db9c0a81a",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xe055049016e5e3d364fa75802a2042134a350bdd",
+      "role": "token",
+      "runtimeBytecodeHash": "0x953cd05e39dc9db357861d09b2313eb1366c8e604c2d4593c03ad8e93b3d9c8e",
+      "build": "build-inputs/1beec5358d07f58d3571542c5e2527b5.json",
+      "source": "contracts/robinhood/OrynthLaunchTokenV2.sol",
+      "name": "OrynthLaunchTokenV2",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    },
+    {
+      "address": "0xdebb21af28757bc15199021ae34a3f18cbe47418",
+      "role": "fee-locker",
+      "runtimeBytecodeHash": "0x7994fab6238b0c62a83498a427b2be9fa06e6396e4e81ed7dd8bb7f15ca36be7",
+      "build": "build-inputs/f44936cd353e680708162bd05283c768.json",
+      "source": "contracts/robinhood/OrynthFeeLocker.sol",
+      "name": "OrynthFeeLocker",
+      "artifactMatch": true,
+      "explorerVerification": "not-yet-checked"
+    }
+  ]
+}
