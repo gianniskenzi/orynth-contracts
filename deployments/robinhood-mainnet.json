@@ -18,6 +18,17 @@
         "match": "exact_match",
         "url": "https://repo.sourcify.dev/4663/0xF67B66751Ef6b0733eeb562c2BC37D856CF00214",
         "verifiedAt": "2026-09-04T10:48:48Z"
+      },
+      "blockscoutVerification": {
+        "address": "0xf67b66751ef6b0733eeb562c2bc37d856cf00214",
+        "status": "exact-match-observed",
+        "message": "Contract source code verified (exact match)",
+        "verifiedAtExplorerDisplay": "Sep 4, 2026 13:48:37",
+        "verificationMethod": "Blockscout Bytecode Database",
+        "provider": "Blockscout",
+        "observedAt": "2026-09-05T22:34:22.969Z",
+        "url": "https://robinhoodchain.blockscout.com/address/0xf67b66751ef6b0733eeb562c2bc37d856cf00214?tab=contract",
+        "observationMethod": "Codex in-app browser"
       }
     },
     {
@@ -28,11 +39,22 @@
       "source": "contracts/robinhood/OrynthTokenDeployer.sol",
       "name": "OrynthTokenDeployer",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked",
+      "explorerVerification": "exact-match-observed",
       "sourcifyVerification": {
         "match": "exact_match",
         "url": "https://repo.sourcify.dev/4663/0xFAA6e7470abDa93496Fca2c49E38CB27F0b51f8F",
         "verifiedAt": "2026-09-04T10:49:20Z"
+      },
+      "blockscoutVerification": {
+        "address": "0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f",
+        "status": "exact-match-observed",
+        "message": "Contract source code verified (exact match)",
+        "verifiedAtExplorerDisplay": "Sep 4, 2026 13:49:11",
+        "verificationMethod": "Blockscout Bytecode Database",
+        "provider": "Blockscout",
+        "observedAt": "2026-09-05T22:34:22.969Z",
+        "url": "https://robinhoodchain.blockscout.com/address/0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f?tab=contract",
+        "observationMethod": "Codex in-app browser"
       }
     },
     {
@@ -43,11 +65,20 @@
       "source": "contracts/robinhood/OrynthEthFeeHook.sol",
       "name": "OrynthEthFeeHook",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked",
+      "explorerVerification": "submission-failed",
       "sourcifyVerification": {
         "match": "exact_match",
         "url": "https://repo.sourcify.dev/4663/0x953391a2DDf7E8437FeB878FDF2C6f325Fbf00CC",
         "verifiedAt": "2026-09-05T22:16:01Z"
+      },
+      "blockscoutVerification": {
+        "address": "0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc",
+        "status": "submission-failed",
+        "message": "Something went wrong",
+        "provider": "Blockscout",
+        "observedAt": "2026-09-05T22:34:22.969Z",
+        "url": "https://robinhoodchain.blockscout.com/address/0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc?tab=contract",
+        "observationMethod": "Codex in-app browser"
       }
     },
     {
@@ -58,11 +89,20 @@
       "source": "contracts/robinhood/OrynthHookDeployer.sol",
       "name": "OrynthHookDeployer",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked",
+      "explorerVerification": "submission-failed",
       "sourcifyVerification": {
         "match": "exact_match",
         "url": "https://repo.sourcify.dev/4663/0xF31290688662F55CdAeBd78f9fd3f9B4992aDDa3",
         "verifiedAt": "2026-09-05T22:16:01Z"
+      },
+      "blockscoutVerification": {
+        "address": "0xf31290688662f55cdaebd78f9fd3f9b4992adda3",
+        "status": "submission-failed",
+        "message": "Something went wrong",
+        "provider": "Blockscout",
+        "observedAt": "2026-09-05T22:34:22.969Z",
+        "url": "https://robinhoodchain.blockscout.com/address/0xf31290688662f55cdaebd78f9fd3f9b4992adda3?tab=contract",
+        "observationMethod": "Codex in-app browser"
       }
     },
     {
@@ -95,11 +135,20 @@
       "source": "contracts/robinhood/OrynthRobinhoodHookLauncher.sol",
       "name": "OrynthRobinhoodHookLauncher",
       "artifactMatch": true,
-      "explorerVerification": "not-yet-checked",
+      "explorerVerification": "submission-unconfirmed",
       "sourcifyVerification": {
         "match": "exact_match",
         "url": "https://repo.sourcify.dev/4663/0xaf483a76F3732fC9726189CA1EB48f54c234E4Df",
         "verifiedAt": "2026-09-05T22:16:08Z"
+      },
+      "blockscoutVerification": {
+        "address": "0xaf483a76f3732fc9726189ca1eb48f54c234e4df",
+        "status": "submission-unconfirmed",
+        "message": "Form returned to enabled state without a visible verification confirmation",
+        "provider": "Blockscout",
+        "observedAt": "2026-09-05T22:34:22.969Z",
+        "url": "https://robinhoodchain.blockscout.com/address/0xaf483a76f3732fc9726189ca1eb48f54c234e4df?tab=contract",
+        "observationMethod": "Codex in-app browser"
       }
     },
     {

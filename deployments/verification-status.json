@@ -437,5 +437,56 @@
         }
       }
     }
+  ],
+  "blockscoutProtocolObservations": [
+    {
+      "address": "0xf67b66751ef6b0733eeb562c2bc37d856cf00214",
+      "status": "exact-match-observed",
+      "message": "Contract source code verified (exact match)",
+      "verifiedAtExplorerDisplay": "Sep 4, 2026 13:48:37",
+      "verificationMethod": "Blockscout Bytecode Database",
+      "provider": "Blockscout",
+      "observedAt": "2026-09-05T22:34:22.969Z",
+      "url": "https://robinhoodchain.blockscout.com/address/0xf67b66751ef6b0733eeb562c2bc37d856cf00214?tab=contract",
+      "observationMethod": "Codex in-app browser"
+    },
+    {
+      "address": "0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f",
+      "status": "exact-match-observed",
+      "message": "Contract source code verified (exact match)",
+      "verifiedAtExplorerDisplay": "Sep 4, 2026 13:49:11",
+      "verificationMethod": "Blockscout Bytecode Database",
+      "provider": "Blockscout",
+      "observedAt": "2026-09-05T22:34:22.969Z",
+      "url": "https://robinhoodchain.blockscout.com/address/0xfaa6e7470abda93496fca2c49e38cb27f0b51f8f?tab=contract",
+      "observationMethod": "Codex in-app browser"
+    },
+    {
+      "address": "0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc",
+      "status": "submission-failed",
+      "message": "Something went wrong",
+      "provider": "Blockscout",
+      "observedAt": "2026-09-05T22:34:22.969Z",
+      "url": "https://robinhoodchain.blockscout.com/address/0x953391a2ddf7e8437feb878fdf2c6f325fbf00cc?tab=contract",
+      "observationMethod": "Codex in-app browser"
+    },
+    {
+      "address": "0xf31290688662f55cdaebd78f9fd3f9b4992adda3",
+      "status": "submission-failed",
+      "message": "Something went wrong",
+      "provider": "Blockscout",
+      "observedAt": "2026-09-05T22:34:22.969Z",
+      "url": "https://robinhoodchain.blockscout.com/address/0xf31290688662f55cdaebd78f9fd3f9b4992adda3?tab=contract",
+      "observationMethod": "Codex in-app browser"
+    },
+    {
+      "address": "0xaf483a76f3732fc9726189ca1eb48f54c234e4df",
+      "status": "submission-unconfirmed",
+      "message": "Form returned to enabled state without a visible verification confirmation",
+      "provider": "Blockscout",
+      "observedAt": "2026-09-05T22:34:22.969Z",
+      "url": "https://robinhoodchain.blockscout.com/address/0xaf483a76f3732fc9726189ca1eb48f54c234e4df?tab=contract",
+      "observationMethod": "Codex in-app browser"
+    }
   ]
 }

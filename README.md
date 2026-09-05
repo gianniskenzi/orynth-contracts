@@ -13,9 +13,11 @@ Each launch creates its own `OrynthLaunchTokenV2` and `OrynthFeeLocker`. The cur
 
 ## Verification status
 
-As of September 5, 2026 (UTC), **30 recorded addresses have exact-match source verification on Sourcify**: the 12 current launch tokens, their 12 lockers, and six shared current/historical contracts. [Per-address results](deployments/verification-status.json) include direct source links. For example, [OCR Genius is verified here](https://repo.sourcify.dev/4663/0x99E35ac90a8E583c06d68aE9e894939cdfA15f4C).
+Both production protocol contracts, **OrynthRobinhoodLauncher** and **OrynthTokenDeployer**, display **“Contract source code verified (exact match)”** on Blockscout. Their source pages above include compiler settings, ABI, bytecode, and imported Solidity files. Blockscout records both verifications on September 4, 2026, using its Bytecode Database; these were existing verifications confirmed through the browser.
 
-The current launcher also displays an exact match on Blockscout. Further Blockscout publication is pending: its API returned HTTP 403, and the browser submission for OCR returned “Something went wrong.” This does not change the successful Sourcify results. Do not interpret these results as confirmation of every historical deployment or of GMGN's cached badge.
+As of September 5, 2026 (UTC), **30 recorded addresses have exact-match source verification on Sourcify**: six shared current/historical contracts, 12 current launch tokens, and their 12 lockers. [Per-address results](deployments/verification-status.json) include direct source links and Blockscout protocol observations.
+
+The earlier ETH-hook deployment has separate verification status. Further Blockscout publication remains pending where its browser returns “Something went wrong” or its API returns HTTP 403. See the per-address verification record for observations. Do not interpret protocol verification as confirmation of every deployed child token, every historical deployment, or GMGN's cached badge.
 
 The token has a fixed supply of 1,000,000,000 units with 18 decimals. The launcher creates a Uniswap v4 pool with a 2% pool fee and places the liquidity position NFT in a permanent fee locker. The locker splits fees between creator and platform and supports converting accumulated token fees to ETH.
 
@@ -54,7 +56,7 @@ Verification publishes source and matches it against an existing contract. It re
 With Node.js 20 or newer, recorded addresses can also be submitted using:
 
 ```sh
-node scripts/verify.cjs 0x99e35ac90a8e583c06d68ae9e894939cdfa15f4c --submit
+node scripts/verify.cjs 0xFAA6e7470abDa93496Fca2c49E38CB27F0b51f8F --submit
 ```
 
 Omit `--submit` to inspect the request details without publishing. The script uses Blockscout's documented API. If its web protection rejects API access, use the browser form above. Submission acceptance is not verification success; check the contract page after processing.
